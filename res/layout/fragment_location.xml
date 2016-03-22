@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_disabled_location_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#80FF0000"
+        android:gravity="center"
+        android:text="@string/text_disabled_location_service"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text_paused_location_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#80FF7F00"
+        android:gravity="center"
+        android:text="@string/text_paused_location_service"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/list_location_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice" >
+    </ListView>
+
+</LinearLayout>

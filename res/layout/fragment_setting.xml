@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/title_services" >
+
+        <CheckBoxPreference
+            android:key="checkbox_location_service_preference"
+            android:summary="@string/summary_location_service"
+            android:title="@string/title_location_service" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/title_special_modes" >
+
+        <CheckBoxPreference
+            android:key="checkbox_driving_preference"
+            android:summary="@string/summary_driving_preference"
+            android:title="@string/title_driving_preference" />
+
+        <CheckBoxPreference
+            android:dependency="checkbox_location_service_preference"
+            android:key="checkbox_green_preference"
+            android:summary="@string/summary_green_preference"
+            android:title="@string/title_green_preference" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/title_user_preferences" >
+
+        <ListPreference
+            android:defaultValue="-1"
+            android:entries="@array/default_mode_entries"
+            android:entryValues="@array/default_mode_values"
+            android:key="list_default_mode"
+            android:title="@string/title_default_mode" 
+            android:summary="@string/summary_default_mode"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="list_view_selected_color">#f2f2f2</color>
+    <color name="list_view_default_color">#ffffff</color>
+
+</resources>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.uta.se.profilebuddy.AddLocation" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_refresh"
+        android:visible="true"/>
+    <item
+        android:id="@+id/action_event"
+        android:icon="@drawable/ic_action_event"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_event"
+        android:visible="false"/>
+
+</menu>

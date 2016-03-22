@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Profile Buddy</string>
+    <string name="title_action_bar_add_location_one">Add Location - Step 1</string>
+    <string name="location_tab">Location</string>
+    <string name="event_tab">Events</string>
+    <string name="setting_tab">Settings</string>
+    <string name="location_text">Location Body</string>
+    <string name="event_text">Event Body</string>
+    <string name="setting_text">Setting body</string>
+    <string name="text_label_add_location_fragment">Phone profile :</string>
+    <string name="action_new">Add</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_event">Event</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_next">NEXT</string>
+    <string name="action_save">SAVE</string>
+    <string name="edit_title_hint_add_location_one">Title (ex: Home, Work)</string>
+    <string name="edit_title_hint_edit_location_one">Title (ex: Home, Work)</string>
+    <string name="edit_search_hint_add_location_one">Address to search</string>
+    <string name="edit_search_hint_edit_location_one">Address to search</string>
+    <string name="edit_radius_hint_add_location_final">Radius in meters (&lt; 1000)</string>
+    <string name="edit_radius_hint_edit_location_final">Radius in meters (&lt; 1000)</string>
+    <string name="text_button_next_menu_add_location">Next</string>
+    <string name="error_title">Error</string>
+    <string name="event_info_title">Event Information</string>
+    <string name="event_info_content" formatted="false">Title: %s\nDescription: %s\nStart: %s\nEnd: %s</string>
+    <string name="event_info_recursive_content" formatted="false">Title: %s\nDescription: %s</string>
+    <string name="event_info_content_w_recurrence" formatted="false">Title: %s\nDescription: %s\nStart: %s\nEnd: %s\nRecurrence:%s</string>
+    <string name="add_location_invalid_entry_message">Make sure to enter a title and a address for your location!</string>
+    <string name="add_location_invalid_location_message">Location entered not found. Please enter a valid location!</string>
+    <string name="add_location_invalid_radius_message">Make sure to define a radius!</string>
+
+    <string-array name="values_mode_location_fragment">
+        <item>SILENT</item>
+        <item>VIBRATE</item>
+        <item>NORMAL</item>
+    </string-array>
+    <string-array name="values_mode_event_fragment">
+        <item>NO CHANGE</item>
+        <item>SILENT</item>
+        <item>VIBRATE</item>
+        <item>NORMAL</item>
+    </string-array>
+    <string-array name="default_mode_entries">
+        <item>NONE</item>
+        <item>SILENT</item>
+        <item>VIBRATE</item>
+        <item>NORMAL</item>
+    </string-array>
+    <string-array name="default_mode_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="title_activity_add_location">AddLocationActivity</string>
+    <string name="title_add_location_final_activity">Add Location - Final</string>
+    <string name="title_action_bar_edit_location_one">Edit Location - Step 1</string>
+    <string name="title_action_bar_edit_location_final">Edit Location - Final</string>
+    <string name="title_services">Services</string>
+    <string name="title_location_service">Location service</string>
+    <string name="summary_location_service">Enable/disable location service</string>
+    <string name="title_special_modes">Special modes</string>
+    <string name="title_driving_preference">Driving mode</string>
+    <string name="summary_driving_preference">Autohandles calls while driving</string>
+    <string name="title_green_preference">Green mode</string>
+    <string name="summary_green_preference">Manages services upon battery level</string>
+    <string name="text_disabled_location_service">Location Service Disabled</string>
+    <string name="text_paused_location_service">Battery Low. Service paused.</string>
+    <string name="text_message_driving_mode">I\'m driving at the moment, I\'ll call you back later.</string>
+    <string name="title_user_preferences">User Preferences</string>
+    <string name="title_default_mode">Default mode</string>
+    <string name="summary_default_mode">Fallback mode for the application</string>
+
+</resources>

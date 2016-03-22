@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_previous_item</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="CustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#5bc5a7</item>
+    </style>
+
+</resources>
